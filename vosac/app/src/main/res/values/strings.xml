@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">VOSAC</string>
+    <string name="app_name_full">VOSAC</string>
+    <string name="menu_label_categories">Configuration</string>
+    <string name="basic_usage">
+        In the simplest case, VOSAC can be used as a configurable support robot that you can chat with using only your voice. To do this:
+
+        \n\n**** FIRST TIME USAGE?
+        \n\n1. Open the VOSAC app
+        \n2. Click the "squares" icon on the menu, which opens a screen with the button to "Scan A QAKB"
+        \n3. Click on the "Scan a QAKB" button, which opens a barcode scanner interface.
+        \n4. Scan a supported VOSAC QRCODE, such as Product or Service Support QRCODES, VOSA QAKB Codes, or the like.
+        \n5. Once the code is scanned, VOSAC will automatically load and display the discovered/associated QAKB - a Question-Answer Knowledge Base,
+        which is then cached in the VOSAC for future use with or without the scanned code.
+        \n6. Then proceed to the "NORMAL USAGE" section below...
+
+        \n\n**** NORMAL USAGE?
+
+        \n\n1. Open the VOSAC app
+        \n2. If not selected, tap on the \"Select\" tab.
+        \n3. Ensure to select at least one of the listed QAKB options - tap against the select switch to select.
+        \n4. Then tap on the "Chat" tab at the bottom of the app, and start to chat with the configured VOSA.
+        \n5. Start by asking a simple question such as \"Hello?\", "What time is it",... then proceed to ask questions specific to the actively loaded/selected QAKB.
+        \n6. VOSAC will speak back with an answer. Just continue the conversation as you wish.
+
+        \n\n**** EXTRAS
+
+        \nSome special things you can ask VOSAC:
+        \n\n\t-- What is your name?
+        \n\t-- How old are you?
+         \n\t-- What is the time now?
+         \n\t-- What year is it?
+         \n\t-- What is the date today?
+         \n\t-- I love you
+         \n\t-- How are you?
+         \n\t-- How old are you?
+
+        \n\nThen Special Commands:
+
+        \n\n\t** Please Silence --- also \"Be Silent\", will make VOSAC stop speaking
+        \n\t** Please Speak --- will make VOSAC speak again
+        \n\t** Please Go away -- will make VOSAC close itself
+        \n\t** Please Reload  -- also \"Please Refresh\", will make VOSAC reload itself
+        \n\t** User Guide --  also \"User Manual\", will display the in-built user manual
+        \n\t** Show About -- will display the app\'s about information
+
+
+         \n\nSometimes you will not get back the answer you expected - but that is how natural
+        conversations are sometimes ;-) Do not forget that VOSAC is a robot!
+    </string>
+    <string name="powered_by">This technology is brought to you by NuChwezi ICT Research Labs.
+        \n\nVOSAC is a generic, parametric, user-configurable, voice-operated support assistant robot applicable to as many scenarios or problems in the form of information access and retrieval as part of user support, artificial assistants and the like.
+        \n\nSO HOW COULD IT HELP YOU?
+        \n\nGive VOSAC access to one or more knowledge bases (in the form of VOSA-compatible QAKBs), and VOSAC, which is the Voice Operated Support Assistant Client, can intercept your voice questions, and offer back meaningful, useful answers. It also helps in manually browsing such digitized QAKBs - Question-Answer Knowledge Bases,
+        where one would traditionally browse a FAQ on a website or a physical user manual.
+
+        \n\nThe VOSA technology can be applied in customer support and after-sales services in any industry or domain.
+        \n\nCOPYRIGHT &amp; LEGAL
+    \n\n&#169; VOSA, VOSAC are original IP of researcher, Joseph Willrich Lutalo (Makerere University, Nuchwezi).
+    </string>
+    <!-- perhaps should be 'application/json'? -->
+    <string name="mimeType_dramon_datafile">*/*</string>
+    <string name="label_dramon_from_file">Load VOSAC Data from File...</string>
+    <string name="error_no_file_manager_found">No suitable File Manager was found.</string>
+    <string name="default_no_suggestion_utterance">Sorry, I have no suggestions for you right now.</string>
+    <string name="default_no_stream_utterance">Please talk to me</string>
+    <string name="name_app_creator">Joseph Willrich Lutalo</string>
+    <string name="message_scan">SCAN QAKB QRCODE</string>
+    <string name="stopwords_filename">stopwords.txt</string>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dip"
+    tools:showIn="@layout/qakb_items_preview">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textStyle="bold"
+        android:text="Q HERE?"
+        android:id="@+id/txtQ"
+        android:layout_marginLeft="5dip" />
+
+    <TextView
+        android:textColor="@color/colorAnsForeground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text=""
+        android:id="@+id/txtA"
+        android:layout_marginLeft="5dip" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dip" />
+</LinearLayout>
+
+    

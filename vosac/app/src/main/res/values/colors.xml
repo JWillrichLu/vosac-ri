@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- inspiring palette: https://www.colourlovers.com/palette/3843267/Arcane_Colors -->
+    <color name="colorPrimary">#37474F</color>
+    <color name="colorPrimaryDark">#212121</color>
+    <color name="colorAccent">#e040fb</color>
+    <color name="colorAnsForeground">#ffffff</color>
+</resources>

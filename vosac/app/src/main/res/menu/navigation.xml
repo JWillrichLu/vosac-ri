@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="Select" android:id="@+id/nav_select" android:icon="@drawable/filter" app:showAsAction="always"/>
+    <item android:title="Chat" android:id="@+id/nav_stream" android:icon="@drawable/trans_stream" app:showAsAction="always"/>
+</menu>

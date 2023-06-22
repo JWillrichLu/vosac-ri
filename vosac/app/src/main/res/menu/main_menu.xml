@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_refresh"
+        android:icon="@drawable/ic_refresh"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_categories"
+        android:title="@string/menu_label_categories"
+        android:icon="@drawable/ic_categories"
+        app:showAsAction="always"/>
+    <group android:id="@+id/menu_grp_info">
+        <item
+            android:enabled="false"
+            android:title="Learn How to Use VOSAC..."
+            />
+        <item
+            android:id="@+id/action_guide"
+            android:title="USER GUIDE | HOW TO"
+            />
+        <item
+            android:id="@+id/action_about"
+            android:title="About | HELP"
+            />
+    </group>
+</menu>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/app_background2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <WebView
+        android:id="@+id/dramon_avatar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F50057" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:background="@android:color/transparent"
+
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        >
+
+
+        <com.google.android.flexbox.FlexboxLayout
+            android:layout_gravity="bottom"
+
+            android:id="@+id/containerSuggestions"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            app:justifyContent="flex_end"
+
+            app:flexWrap="nowrap"
+            app:flexDirection="column"
+
+            app:alignItems="stretch"
+            app:alignContent="stretch"
+
+            app:showDivider="beginning|middle"
+            app:dividerDrawable="@drawable/item_divider"
+            >
+
+        </com.google.android.flexbox.FlexboxLayout>
+
+    </ScrollView>
+
+</FrameLayout>

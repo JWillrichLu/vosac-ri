@@ -1,0 +1,53 @@
+body, html {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	font-family: sans-serif;
+	background: #1d1b1b;
+}
+
+.js-geopattern,
+#string {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#string  {
+	text-align: center;
+	color: #f7f7f7;
+	background: rgba(0, 0, 0, 0);
+	border: 0;
+	outline: 0;
+	text-shadow: 0 0 5px rgba(255, 255, 255, 0.75);
+	font-size: 30pt;
+	width: 90%
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top:5%;
+}
+
+#string ::-ms-clear {
+	display: none;
+}
+
+#anim {
+    width: 100%;
+    height: 100%;
+    background-image: url(../vortex_thing.gif);
+    z-index: 100000;
+    background-position: top;
+    background-repeat: no-repeat;
+    /*border-radius: 50% !important;*/
+    background-position-y: 40%; 
+}
+
+.js-geopattern {
+	opacity:0.8 !important;
+	z-index: 100;
+}
